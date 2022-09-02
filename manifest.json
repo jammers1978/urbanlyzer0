@@ -1,26 +1,26 @@
 {
-  "name": "Getting Started Example",
-  "description": "Build an Extension!",
+  "name": "Urbanlyzer",
+  "description": "Look up highlighted text in Urban Dictionary",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": ["storage", "activeTab", "scripting"],
+  "permissions": ["storage", "activeTab", "scripting", "contextMenus","notifications"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "/images/get_started16.png",
-      "32": "/images/get_started32.png",
-      "48": "/images/get_started48.png",
-      "128": "/images/get_started128.png"
+      "16": "/images/Logo.png",
+      "32": "/images/Logo.png",
+      "48": "/images/Logo.png",
+      "128": "/images/Logo.png"
     }
   },
   "icons": {
-    "16": "/images/get_started16.png",
-    "32": "/images/get_started32.png",
-    "48": "/images/get_started48.png",
-    "128": "/images/get_started128.png"
+    "16": "/images/Logo.png",
+    "32": "/images/Logo.png",
+    "48": "/images/Logo.png",
+    "128": "/images/Logo.png"
   },
   "options_page": "options.html"
 }
