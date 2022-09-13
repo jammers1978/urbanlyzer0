@@ -27,6 +27,16 @@ for (var i = 0; i < contexts.length; i++) {
 }
 
 
+// browser.menus.create({
+//   id: "open-popup",
+//   title: "open popup",
+//   contexts: ["all"]
+// });
+
+// chrome.menus.onClicked.addListener(() => {
+//    chrome.browserAction.openPopup();
+//  });
+
 // Create a parent item and two children.
 //var parent = chrome.contextMenus.create({"title": "Test parent item", "id":"context"+ Math.random()});
 //var child1 = chrome.contextMenus.create(
