@@ -5,7 +5,7 @@ chrome.storage.sync.set({ color });
 console.log('Default background color set to %cgreen', `color: ${color}`);
 });
 
-// A generic onclick callback function.
+//A generic onclick callback function.
 function genericOnClick(info, tab) 
 {
   console.log("item " + info.menuItemId + " was clicked");
@@ -15,7 +15,7 @@ function genericOnClick(info, tab)
 
 var contextMenuId;
 
-// Create one test item for each context type.
+//Create one test item for each context type.
 var contexts = ["selection"];
 for (var i = 0; i < contexts.length; i++) {
   var context = contexts[i];
@@ -29,7 +29,7 @@ for (var i = 0; i < contexts.length; i++) {
 }
 
 chrome.contextMenus.onClicked.addListener(function(info, tab) {
-console.log("Clicked Motherfucker");
+console.log("Context Menu Item Clicked Further Info:");
 console.log(info);
 console.log(tab);
  
