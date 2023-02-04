@@ -14,13 +14,12 @@ function genericOnClick(info, tab)
 }
 
 var contextMenuId;
-
-//Create one test item for each context type.
+//Called contexts 
 var contexts = ["selection"];
 for (var i = 0; i < contexts.length; i++) {
   var context = contexts[i];
   var title = "Check highlighted item on Urban Dictionary";
-  if (cmid != null)
+  if (contextMenuId != null)
   {
     chrome.contextMenus.remove(contextMenuId);
   }
